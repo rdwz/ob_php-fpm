@@ -1,6 +1,6 @@
-ARG ALPINE_VERSION=3.14
+ARG ALPINE_VERSION=3.16
 FROM alpine:${ALPINE_VERSION}
-LABEL maintainer="Thomas Spicer (thomas@openbridge.com)"
+LABEL maintainer="Stapelkai (stapelkai@openbridge.com)"
 ARG ALPINE_VERSION
 
 ENV VAR_PREFIX=/var/run
